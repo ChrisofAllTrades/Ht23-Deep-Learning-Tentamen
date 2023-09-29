@@ -11,6 +11,7 @@ Din uppgift är att kolla på följande video: https://www.youtube.com/watch?v=B
 Läser du betygskriterierna för VG längre ned i dokumentet så ser du att bl.a. följande krävs: 
 - På ett fördjupat sätt kunna applicera vidareutveckling kring deep learning. 
 - På ett fördjupat sätt påvisa ett självständigt arbete och utveckling som utvecklare och analytiker inom optimering och utveckling med hjälp av deep learning 
+
 Det räcker därför inte att köra samma kod som i videon för att uppnå högre betyg, du kommer behöva nyttja din kreativitet för att göra någon form av vidareutveckling på ett självständigt sätt. 
 
 ## Rapport 
@@ -20,6 +21,7 @@ När du är klar med koden skall du skriva en rapport som innehåller följande:
 3. Metod och Modeller (Teori) 
 4. Projekt Resultat och Analys - Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina olika modeller om man har ett regressionsproblem. Ofta kan tabeller vara användbara vid redogörelse av resultaten. 
 5. Slutsats och förslag på potentiell vidareutveckling. 
+
 **Rapporten skall vara ca 2-5 sidor.** Skriv koncist och fundera på vad du vill lyfta fram. Rapporten är en god förberedelse för ert examensarbete. 
 
 Efter att du är klar skall du skriva en kort redogörelse i slutet av rapporten för: 
