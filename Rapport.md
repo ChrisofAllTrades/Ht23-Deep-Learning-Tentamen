@@ -6,12 +6,15 @@
 ## Databeskrivning / EDA (Exploratory Data Analysis)
 - Modifiera kod till att visa bilder från fler uttryck
 ## Metod och Modeller (Teori)
-- För att testa potentiella modeller körde jag på en mindre del av datasetet först.
 ## Projekt Resultat och Analys
 Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina olika modeller om man har ett regressionsproblem. Ofta kan tabeller vara användbara vid redogörelse av resultaten.
 ## Slutsats och förslag på potentiell vidareutveckling
+- Utveckla verifikationsprocessen för datakvaliteten
 
 ## Redogörslse
+- La till validation_split i träningssetet
+- För att testa potentiella modeller och testa koden körde jag på en mindre del av datasetet först.
+- Testade att grundkoden fungerade innan jag gjorde större ändringar
 ### Utmaningar du haft under arbetet samt hur du hanterat dem.
 - Deprekerade paket i kodexemplet
 - Samköra Kaggle och lokal miljö
@@ -31,3 +34,4 @@ However, there may be some cases where shuffling the validation data is appropri
 
 - https://keras.io/keras_tuner/
 - https://keras.io/guides/transfer_learning/#finetuning
+- https://www.tensorflow.org/tutorials/load_data/images
