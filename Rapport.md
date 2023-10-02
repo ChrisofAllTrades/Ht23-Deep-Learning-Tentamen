@@ -5,6 +5,7 @@
 ### Frågeställning
 ## Databeskrivning / EDA (Exploratory Data Analysis)
 - Modifiera kod till att visa bilder från fler uttryck
+- Data redan indelad i tränings- och valideringsset så behöver inte göra det själv
 ## Metod och Modeller (Teori)
 ## Projekt Resultat och Analys
 Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina olika modeller om man har ett regressionsproblem. Ofta kan tabeller vara användbara vid redogörelse av resultaten.
@@ -17,6 +18,7 @@ Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina o
 - Testade att grundkoden fungerade innan jag gjorde större ändringar
 ### Utmaningar du haft under arbetet samt hur du hanterat dem.
 - Deprekerade paket i kodexemplet
+    - Borde ha kört modellen med deprekerade paket bara för att få den att funka direkt. Nu gjorde jag nya funktioner direkt för att bygga dataseten.
 - Samköra Kaggle och lokal miljö
 - Klassen ImageDataGenerator deprekerad, uppdaterade kod till utils.image_dataset_from_directory istället ([TensorFlow-artikel](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator))
 ### Vilket betyg du anser att du skall ha och varför.
