@@ -16,10 +16,13 @@ Det räcker därför inte att köra samma kod som i videon för att uppnå högr
 
 ## Rapport 
 När du är klar med koden skall du skriva en rapport som innehåller följande: 
-1. Introduktion som innehåller underrubrikerna: - Bakgrund - Syfte och Frågeställning 
+1. Introduktion som innehåller underrubrikerna: 
+    - Bakgrund 
+    - Syfte och Frågeställning 
 2. Databeskrivning / EDA (Exploratory Data Analysis) 
 3. Metod och Modeller (Teori) 
-4. Projekt Resultat och Analys - Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina olika modeller om man har ett regressionsproblem. Ofta kan tabeller vara användbara vid redogörelse av resultaten. 
+4. Projekt Resultat och Analys 
+    - Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina olika modeller om man har ett regressionsproblem. Ofta kan tabeller vara användbara vid redogörelse av resultaten. 
 5. Slutsats och förslag på potentiell vidareutveckling. 
 
 **Rapporten skall vara ca 2-5 sidor.** Skriv koncist och fundera på vad du vill lyfta fram. Rapporten är en god förberedelse för ert examensarbete. 
