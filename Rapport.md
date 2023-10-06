@@ -26,19 +26,22 @@ Resultat är deskriptiva i sin natur, t.ex. att man presenterar RMSE för sina o
 ## Slutsats och förslag på potentiell vidareutveckling
 - Utveckla verifikationsprocessen för datakvaliteten (outliers)
 - Data augumentation
+- Pretrained model
 
 ## Redogörslse
 - För att få en bättre känsla för datasetet byggde jag ut grundmodellens funktion till att visa tre bilder från varje kategori istället för nio bilder från en.
 - La till validation_split i träningssetet
 - För att testa potentiella modeller och testa koden körde jag på en mindre del av datasetet först.
 - Testade att grundkoden fungerade innan jag gjorde större ändringar
-- Output function as per tabell 10-1 och 10-2
-- Antar MSE - inga outliers i dataseten
+- Output function as per tabell 10-2
+- Grundmodellen har flertalet deprekerade funktioner i koden. De fungerar men för att göra koden
 ### Utmaningar du haft under arbetet samt hur du hanterat dem.
 - Deprekerade paket i kodexemplet
     - Borde ha kört modellen med deprekerade paket bara för att få den att funka direkt. Nu gjorde jag nya funktioner direkt för att bygga dataseten.
 - Samköra Kaggle och lokal miljö
 - Klassen ImageDataGenerator deprekerad, uppdaterade kod till utils.image_dataset_from_directory istället ([TensorFlow-artikel](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator))
+- Högre accuracy i evaluation men fungerar sämre i praktiken
+- Klassen 'ReduceLROnPlateau' i grundmodellen har samma patience som 'EarlyStopping', vilket innebär att de aktiveras samtidigt och modellen hinner inte träna med reducerad LR och gör därmed ingenting. Ökad patience på 'EarlyStopping' löser problemet.
 ### Vilket betyg du anser att du skall ha och varför.
 ### Tips du hade ”gett till dig själv” i början av kursen nu när du slutfört den.
 - Bekymra dig inte så mycket över att förstå all teoretiskt direkt från början, det är bättre att börja jobba tidigare direkt med kod för det hjälper förståelsen.
