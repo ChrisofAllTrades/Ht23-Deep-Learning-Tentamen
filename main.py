@@ -5,10 +5,10 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 
-pre_trained_model = load_model(r'C:\Users\Chris\Documents\Coding\Ht23-Deep-Learning-Tentamen\model_pre_trained.h5')
-self_trained_model = load_model(r'C:\Users\Chris\Documents\Coding\Ht23-Deep-Learning-Tentamen\model_self_trained_v0.2.h5')
+pre_trained_model = load_model(r'../Ht23-Deep-Learning-Tentamen/model_pre_trained.h5')
+self_trained_model = load_model(r'../Ht23-Deep-Learning-Tentamen/model_self_trained_v0.2.h5')
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\Chris\Documents\Coding\Ht23-Deep-Learning-Tentamen\haarcascade_frontalface_default.xml')
+face_classifier = cv2.CascadeClassifier(r'../Ht23-Deep-Learning-Tentamen/haarcascade_frontalface_default.xml')
 classifier = self_trained_model
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
